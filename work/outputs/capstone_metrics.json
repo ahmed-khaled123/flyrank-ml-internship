@@ -1,0 +1,42 @@
+{
+  "n_train": 107030,
+  "n_test": 7685,
+  "n_train_clients": 31,
+  "n_test_clients": 8,
+  "base_rate_train": 0.333,
+  "base_rate_test": 0.509,
+  "results_table": [
+    {
+      "approach": "baseline (CTR-gap rule)",
+      "ROC-AUC": 0.506,
+      "Precision@20": 0.35,
+      "Precision@50": 0.46
+    },
+    {
+      "approach": "model (random forest)",
+      "ROC-AUC": 0.587,
+      "Precision@20": 0.75,
+      "Precision@50": 0.78
+    },
+    {
+      "approach": "no-skill floor (test base rate)",
+      "ROC-AUC": 0.5,
+      "Precision@20": 0.509,
+      "Precision@50": 0.509
+    }
+  ],
+  "model_roc_auc_nongrouped_comparison": 0.684,
+  "top_features": {
+    "content_age_days": 0.2951,
+    "ctr_prior": 0.1686,
+    "avg_position_prior": 0.1574,
+    "days_with_impr_prior": 0.1406,
+    "impressions_prior": 0.1252,
+    "clicks_prior": 0.0818,
+    "content_type_keyword article": 0.0186,
+    "content_type_comparison article": 0.0091
+  },
+  "raw_top10_unique_clients": 2,
+  "diversified_top10_unique_clients": 5,
+  "min_impressions_filter": 100
+}
