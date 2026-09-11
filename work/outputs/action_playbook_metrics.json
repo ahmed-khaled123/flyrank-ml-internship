@@ -1,0 +1,16 @@
+{
+  "queue_size": 25,
+  "queue_unique_clients": 7,
+  "reason_code_counts": {
+    "model_decline_risk_and_ctr_below_position_tier": 25
+  },
+  "borderline_count_0_45_0_55": 924,
+  "no_go_top3_count": 354,
+  "monitoring_snapshot": {
+    "partition": "2026-03",
+    "label_prevalence": 0.344,
+    "median_impressions_prior": 226.0,
+    "median_avg_position_prior": 8.76370914240688,
+    "n_clients": 39
+  }
+}
